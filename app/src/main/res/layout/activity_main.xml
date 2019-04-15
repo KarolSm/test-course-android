@@ -30,7 +30,7 @@
             />
 
         <Button
-            android:id="@+id/bt3"
+            android:id="@+id/scoresButton"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -57,7 +57,7 @@
 
     </LinearLayout>
     <RelativeLayout
-        android:id="@+id/relativelayout1"
+        android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#66000000"

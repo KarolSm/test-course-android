@@ -6,23 +6,49 @@
     android:layout_height="match_parent"
     tools:context=".SavedBoardsActivity">
 
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="2"
-        android:id="@+id/iv1"/>
     <TextView
+        android:id="@+id/testText"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:id="@+id/tv1"/>
+        android:layout_height="200dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:text="test"
+        android:textColor="#aaaaaa"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/testText1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:text="test"
+        android:textColor="#aaaaaa"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/testText2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:text="test"
+        android:textColor="#aaaaaa"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/testText3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:text="test"
+        android:textColor="#aaaaaa"
+        android:textSize="30sp" />
 
     <ListView
+        android:id="@+id/scoresList"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/lv1">
-
-    </ListView>
+        android:layout_height="match_parent" />
 
 </LinearLayout>
