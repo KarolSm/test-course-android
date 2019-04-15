@@ -14,7 +14,7 @@ import android.widget.TextView;
 public class SavedBoardsActivity extends MainActivity {
 
     private ListView scoresList;
-    private TextView testText;
+//    private TextView testText;
     String[] values = new String[]{
             "Android List View",
             "Adapter implementation",
@@ -34,7 +34,7 @@ public class SavedBoardsActivity extends MainActivity {
 
         scoresList = findViewById(R.id.scoresList);
 
-        testText = findViewById(R.id.testText);
+//        testText = findViewById(R.id.testText);
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.activity_saved_boards, R.id.testText, values);
         scoresList.setAdapter(adapter);
